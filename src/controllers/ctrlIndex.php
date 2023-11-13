@@ -1,7 +1,7 @@
 <?php
 function ctrlIndex($request, $response, $container){
 
-    $taskModel = $container->apf();
+    $taskModel = $container->Users();
     $user = $request->get("SESSION", "user");
     $response->setTemplate("index.php");
 

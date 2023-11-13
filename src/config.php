@@ -7,7 +7,7 @@ $config = [
     "db" => [
         "user" => "root",
         "pass" => "1234",
-        "db" => "test1",
+        "db" => "excursio",
         "host" => "localhost"
     ],
 ];
