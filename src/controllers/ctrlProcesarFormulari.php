@@ -21,7 +21,7 @@ function ctrlProcesarFormulari($request, $response, $container) {
 
     $taskModel->addAlumnes($Nom, $Cognoms, $DataNaixement, $Carrer, $Numero, $Ciutat, $CodiPostal);
 
-    $response->redirect("location: index.php?r=formulari");
+    $response->redirect("location: index.php?r=dadesformulari");
     
     return $response;
 }

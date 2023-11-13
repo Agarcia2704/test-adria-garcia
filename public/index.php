@@ -5,6 +5,9 @@ include "../src/config.php";
 include "../src/controllers/ctrlIndex.php";
 include "../src/controllers/ctrlFormulari.php";
 include "../src/controllers/ctrlProcesarFormulari.php";
+include "../src/controllers/ctrlInscripcions.php";
+include "../src/controllers/ctrlDadesFormulari.php";
+include "../src/controllers/ctrlFormulariClau.php";
 
 include "../src/middleware/isLogged.php";
 
@@ -27,6 +30,10 @@ if ($r == "") {
   $response = ctrlFormulari($request, $response, $container, "ctrlFormulari");
 } elseif ($r == "procesarformulari") {
   $response = ctrlProcesarFormulari($request, $response, $container, "ctrlProcesarFormulari");
+} elseif ($r == "inscripcions") {
+  $response = ctrlInscripcions($request, $response, $container, "ctrlInscripcions");
+} elseif ($r == "formulariclau") {
+  $response = ctrlFormulariClau($request, $response, $container, "ctrlFormulariClau");
 } else {
   echo "No existe la ruta";
 }

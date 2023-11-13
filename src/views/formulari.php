@@ -39,7 +39,7 @@
             <input type="file" class="form-control-file" id="resguard_pagament" name="resguard_pagament" accept=".pdf, .jpg, .jpeg, .png, .pdf" required>
         </div>
 
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <a href="index.php?r=dadesformulari" type="submit" class="btn btn-primary">Enviar</a>
     </form>
 </div>
 <a href="index.php" class="btn btn-primary">Tornar enrere</a>

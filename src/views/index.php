@@ -17,12 +17,9 @@
   <h2>Avís de Política de Cookies</h2>
 <p>Aquest lloc web utilitza cookies per millorar l'experiència de l'usuari. En continuar utilitzant el lloc, accepteu l'ús de cookies.</p>
 </p>
-    <button id="acceptCookies">Aceptar</button>
+    <button id="acceptCookies">Acceptar cookies</button>
   </div>
 </div>
-
-
-
 <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">

@@ -35,3 +35,10 @@ function getCookie(name) {
   }
   return null;
 }
+
+
+var table = new DataTable("#alumnes", {
+  language: {
+    url: "//cdn.datatables.net/plug-ins/1.13.7/i18n/ca.json",
+  },
+});
