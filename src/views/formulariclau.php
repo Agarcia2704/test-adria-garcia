@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Formulario d'accés</title>
     <link rel="stylesheet" type="text/css" href="src/css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
     <h1>Formulari d'accés:</h1>
@@ -28,6 +29,7 @@ document.getElementById('miFormulario').addEventListener('submit', function(e) {
 });
 
 </script>
+<a href="index.php" class="btn btn-primary">Tornar enrere</a>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 </html>

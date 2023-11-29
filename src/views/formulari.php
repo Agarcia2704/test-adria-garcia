@@ -9,7 +9,7 @@
 <div class="container mt-4">
     <h1>Formulari d'Inscripció</h1>
 
-    <form action="index.php" method="post">
+    <form action="index.php" method="post" enctype="multipart/form-data">
     <input type="hidden" name="r" value="procesarformulari" enctype="multipart/form-data">
         <div class="form-group">
             <label for="nom">Nom:</label>
@@ -36,10 +36,11 @@
 
         <div class="form-group">
             <label for="resguard_pagament">Resguard del Pagament (PDF o Imatge):</label>
-            <input type="file" class="form-control-file" id="resguard_pagament" name="resguard_pagament" accept=".pdf, .jpg, .jpeg, .png, .pdf" required>
+            <input type="file" class="form-control-file" id="resguard_pagament" name="resguard_pagament" accept=".pdf, .jpg, .jpeg, .png, .pdf">
         </div>
 
-        <a href="index.php?r=dadesformulari" type="submit" class="btn btn-primary">Enviar</a>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+
     </form>
 </div>
 <a href="index.php" class="btn btn-primary">Tornar enrere</a>

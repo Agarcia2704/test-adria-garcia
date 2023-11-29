@@ -8,7 +8,7 @@
 <nav class="navbar bg-body-tertiary">
         <a href="index.php?r=formulari" class="btn btn-primary">Formulari d'inscripcó</a>
         <a href="index.php?r=formulariclau" class="btn btn-primary">Consultar inscripcions</a>
-        
+        <a href="index.php?r=register" class="btn btn-primary">Registrar-se</a>
     </div>
     </nav>
 </body>
